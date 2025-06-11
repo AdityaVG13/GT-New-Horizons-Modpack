@@ -2,26 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 36
+      "questIDLow:4": 54,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you are starting to find more and more iron, you feel your copper chests are too small to hold all the stuff.\n\n[note]Do you have copper chests that are too small? You can also upgrade with a fitting upgrade item.[/note]",
-      "globalShare:1": 1,
+      "desc:8": "2.8 introduces Barrels!\n\nBackported from modern versions of Minecraft, enjoy this new storage solution that replaces the slightly larger chest!\n\nCrafting the barrel requires wood planks, which means you need at least a Steam Compressor.\n\nThe barrel is logistically identical to a chest with the additional benefit of being accessible with a block above it. ",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "IronChest:BlockIronChest"
+        "id:8": "etfuturum:barrel"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lMore Compact Storage",
-      "partySingleReward:1": 0,
+      "name:8": "Slightly Larger \"Chests\"",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,47 +31,16 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1085,
+  "questIDHigh:4": 6635106935547512508,
+  "questIDLow:4": -7509726387873897051,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IronChest:woodIronUpgrade"
-        },
-        "1:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "etfuturum:barrel_upgrade"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:iron_ingot"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnician"
@@ -90,22 +58,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
-          "Damage:2": 18032,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 27032,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:chest"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 17809,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,7 +76,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -122,7 +84,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IronChest:BlockIronChest"
+          "id:8": "etfuturum:barrel"
         }
       },
       "taskID:8": "bq_standard:retrieval"

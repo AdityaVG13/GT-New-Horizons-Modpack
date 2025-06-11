@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff.\n\n[note]It\u0027s time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try the \"Wood to Copper Chest Upgrade\", but upgrading from wood to a tiered chest will not be any cheaper.[/note]\n\n[note]Upgraded chests cannot be connected into double chests.[/note]",
+      "desc:8": "Now that you are starting to find more and more copper, you feel your wood chests/barrels are too small to hold all the stuff.\n\n[note]It\u0027s time to upgrade your wooden chests/barrels to copper variants! Higher tiers of chests and barrels can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try either of the \"...to Copper Upgrade\", but upgrading from wood to a tiered version will not be any cheaper.[/note]\n\n[note]Upgraded chests cannot be connected into double chests.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -26,7 +26,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -42,12 +42,18 @@
           "id:8": "IronChest:woodCopperUpgrade"
         },
         "1:10": {
+          "Count:3": 3,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "etfuturum:barrel_upgrade"
+        },
+        "2:10": {
           "Count:3": 8,
           "Damage:2": 11035,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "2:10": {
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
@@ -86,6 +92,23 @@
           "Damage:2": 3,
           "OreDict:8": "",
           "id:8": "IronChest:BlockIronChest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:copper_barrel"
         }
       },
       "taskID:8": "bq_standard:retrieval"
